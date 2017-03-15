@@ -17,6 +17,12 @@
 		4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2DC1E650ECA009916E4 /* ImageFeed.swift */; };
 		4196F2E31E6514EE009916E4 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2E21E6514EE009916E4 /* ImagePickerController.swift */; };
 		4196F2ED1E6609B0009916E4 /* PostNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */; };
+		81E938621E75F55D00FEAF9D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E938611E75F55D00FEAF9D /* FeedViewController.swift */; };
+		81E938641E7674E900FEAF9D /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E938631E7674E900FEAF9D /* tableViewCell.swift */; };
+		81E938661E76849E00FEAF9D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E938651E76849E00FEAF9D /* PostViewController.swift */; };
+		81E938681E768B3800FEAF9D /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E938671E768B3800FEAF9D /* ImageViewerViewController.swift */; };
+		81E9386A1E76938100FEAF9D /* Snap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E938691E76938100FEAF9D /* Snap.swift */; };
+		81E9386C1E77434F00FEAF9D /* outerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E9386B1E77434F00FEAF9D /* outerTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,12 @@
 		4196F2DC1E650ECA009916E4 /* ImageFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFeed.swift; sourceTree = "<group>"; };
 		4196F2E21E6514EE009916E4 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 		4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostNavigationController.swift; sourceTree = "<group>"; };
+		81E938611E75F55D00FEAF9D /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		81E938631E7674E900FEAF9D /* tableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
+		81E938651E76849E00FEAF9D /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		81E938671E768B3800FEAF9D /* ImageViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
+		81E938691E76938100FEAF9D /* Snap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Snap.swift; sourceTree = "<group>"; };
+		81E9386B1E77434F00FEAF9D /* outerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = outerTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,10 @@
 		417986CD1E66571B0050E1DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				81E938631E7674E900FEAF9D /* tableViewCell.swift */,
 				4196F2DC1E650ECA009916E4 /* ImageFeed.swift */,
+				81E938691E76938100FEAF9D /* Snap.swift */,
+				81E9386B1E77434F00FEAF9D /* outerTableViewCell.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -73,6 +88,9 @@
 		417986CF1E6657910050E1DF /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				81E938651E76849E00FEAF9D /* PostViewController.swift */,
+				81E938611E75F55D00FEAF9D /* FeedViewController.swift */,
+				81E938671E768B3800FEAF9D /* ImageViewerViewController.swift */,
 				417986C41E6632C40050E1DF /* TabBarController.swift */,
 				4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */,
 				417986CE1E6657650050E1DF /* Cells */,
@@ -187,9 +205,15 @@
 				4196F2E31E6514EE009916E4 /* ImagePickerController.swift in Sources */,
 				417986C51E6632C40050E1DF /* TabBarController.swift in Sources */,
 				417986C91E664AE40050E1DF /* imageCollectionVieCell.swift in Sources */,
+				81E938681E768B3800FEAF9D /* ImageViewerViewController.swift in Sources */,
+				81E938661E76849E00FEAF9D /* PostViewController.swift in Sources */,
 				4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */,
 				4196F2CB1E6509E8009916E4 /* AppDelegate.swift in Sources */,
+				81E938621E75F55D00FEAF9D /* FeedViewController.swift in Sources */,
 				4196F2ED1E6609B0009916E4 /* PostNavigationController.swift in Sources */,
+				81E9386C1E77434F00FEAF9D /* outerTableViewCell.swift in Sources */,
+				81E938641E7674E900FEAF9D /* tableViewCell.swift in Sources */,
+				81E9386A1E76938100FEAF9D /* Snap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

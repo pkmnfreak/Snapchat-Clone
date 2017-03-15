@@ -11,21 +11,31 @@ import UIKit
 class ImagePickerController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     @IBOutlet var imageCollectionView: UICollectionView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.imageCollectionView.collectionViewLayout = ImageFlowLayout.init()
         self.imageCollectionView.backgroundColor = UIColor.lightGray
     }
 
+    static var selectedImage: UIImage?
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    func getSelectedImage() -> UIImage {
+        return ImagePickerController.selectedImage!
     }
     
 
     func selectImage(_ image: UIImage) {
         //The image being selected is passed in as "image".
+        ImagePickerController.selectedImage = image
+        print("selected an image!")
+        performSegue(withIdentifier: "ImagePickerToFeedSegue", sender: Any?.self)
     }
-    
+
     
     
     //DON'T MODIFY CODE HERE AND BELOW!
