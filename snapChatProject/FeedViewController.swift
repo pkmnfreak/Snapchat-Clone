@@ -13,6 +13,7 @@ class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDe
     var ThreadNameArrays: [String] = []
     var selectedIndexPath: IndexPath?
     var snap: Snap?
+    var chosenImage: UIImage?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +46,7 @@ class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDe
     @IBAction func buttonWasPressed(_ sender: Any) {
         let date = Date()
         if let indexPath = selectedIndexPath {
-            if let image = ImagePickerController.selectedImage {
+            if let image = chosenImage {
                 snap = Snap(time: date, image: image, poster: tempUser)
                 threads[ThreadNameArrays[(indexPath.row)]]!.append(snap!)
             } else {
@@ -75,7 +76,7 @@ class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDe
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let identifier = segue.identifier {
             if identifier == "FeedToImagePickerSegue" {
-                if let dest = segue.destination as? ImagePickerController {
+                if segue.destination is ImagePickerController {
                 }
             }
         }

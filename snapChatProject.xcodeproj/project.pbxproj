@@ -17,6 +17,7 @@
 		4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2DC1E650ECA009916E4 /* ImageFeed.swift */; };
 		4196F2E31E6514EE009916E4 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2E21E6514EE009916E4 /* ImagePickerController.swift */; };
 		4196F2ED1E6609B0009916E4 /* PostNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */; };
+		81BF1FA71E937E4D008C4A08 /* ImagePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BF1FA61E937E4D008C4A08 /* ImagePickerViewController.swift */; };
 		81E938621E75F55D00FEAF9D /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E938611E75F55D00FEAF9D /* FeedViewController.swift */; };
 		81E938641E7674E900FEAF9D /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E938631E7674E900FEAF9D /* tableViewCell.swift */; };
 		81E938661E76849E00FEAF9D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E938651E76849E00FEAF9D /* PostViewController.swift */; };
@@ -38,6 +39,7 @@
 		4196F2DC1E650ECA009916E4 /* ImageFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFeed.swift; sourceTree = "<group>"; };
 		4196F2E21E6514EE009916E4 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
 		4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostNavigationController.swift; sourceTree = "<group>"; };
+		81BF1FA61E937E4D008C4A08 /* ImagePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerViewController.swift; sourceTree = "<group>"; };
 		81E938611E75F55D00FEAF9D /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		81E938631E7674E900FEAF9D /* tableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
 		81E938651E76849E00FEAF9D /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				4196F2EC1E6609B0009916E4 /* PostNavigationController.swift */,
 				417986CE1E6657650050E1DF /* Cells */,
 				4196F2E21E6514EE009916E4 /* ImagePickerController.swift */,
+				81BF1FA61E937E4D008C4A08 /* ImagePickerViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				TargetAttributes = {
 					4196F2C61E6509E8009916E4 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SUZD23PMP9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -207,6 +211,7 @@
 				417986C91E664AE40050E1DF /* imageCollectionVieCell.swift in Sources */,
 				81E938681E768B3800FEAF9D /* ImageViewerViewController.swift in Sources */,
 				81E938661E76849E00FEAF9D /* PostViewController.swift in Sources */,
+				81BF1FA71E937E4D008C4A08 /* ImagePickerViewController.swift in Sources */,
 				4196F2DD1E650ECA009916E4 /* ImageFeed.swift in Sources */,
 				4196F2CB1E6509E8009916E4 /* AppDelegate.swift in Sources */,
 				81E938621E75F55D00FEAF9D /* FeedViewController.swift in Sources */,
@@ -336,9 +341,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUZD23PMP9;
 				INFOPLIST_FILE = snapChatProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.snapChatProject;
+				PRODUCT_BUNDLE_IDENTIFIER = "evcchang-gmail.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -348,9 +355,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUZD23PMP9;
 				INFOPLIST_FILE = snapChatProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.iosdecal.snapChatProject;
+				PRODUCT_BUNDLE_IDENTIFIER = "evcchang-gmail.com";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
